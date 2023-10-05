@@ -1,0 +1,19 @@
+<script>
+    function one() {
+        console.log('1');
+        console.log('1 끝');
+    }
+
+    function two() {
+        console.log('2');
+        one()
+        console.log('2 끝');
+    }
+
+    function three() {
+        console.log('3');
+        two()
+        console.log('3 끝');
+    }
+    three()
+</script>
